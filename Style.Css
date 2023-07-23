@@ -1,0 +1,292 @@
+body {
+    background-color: #131313;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+}
+
+/* Navbar Styles Start */
+.navbar {
+    background-color: #00ADB5;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    margin: 10px;
+}
+
+.brand a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 1000;
+    font-size: 22px;
+    font-family: Tahoma, sans-serif;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.3s ease;
+    font-family: Tahoma, sans-serif;
+    font-weight: 480;
+    font-size: 22px;
+}
+
+.nav-links li a:hover {
+    color: #131313;
+}
+
+/* Navbar Styles Ends */
+
+/* Welcome Styles Starts */
+
+.all{
+    text-align: center;
+    
+}
+
+.wlcm {
+    text-shadow: 3px 3px #00ADB5;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.des {
+    text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+/* Welcome Styles Ends */
+
+/* Button Styles Starts */
+
+.btn-1 {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 25px;
+    color: #fff;
+    border: 2px solid #00ADB5;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+}
+
+.btn-1::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: #00ADB5;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    color: #131313;
+}
+
+.btn-1:hover::before {
+    scale: 5.5;
+}
+
+.btn-1:hover {
+    color: #131313;
+    scale: 1.1;
+    box-shadow: 0 0px 20px #00ADB5;
+    font-weight: 600;
+}
+
+.btn-1:active {
+    scale: 1;
+}
+
+#btn-1{
+  margin-left: 100px;
+}
+
+/* Button Styles Ends */
+
+/* Portfolio Styles Starts */
+
+.AbeerKhan{
+    box-shadow: 0 0px 30px #00ADB5;
+    width: 450px;
+    height: 640px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.AK{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.A-K{
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: 2px 2px #00ADB5;
+}
+
+.AK-P{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin: 5px 5px;
+    width: 90%;
+}
+
+AK-img{
+    text-decoration: none;
+}
+
+/* Portfolio Styles Ends */
+
+/* About Styles Starts */
+
+.container-2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 0px 30px #00ADB5;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Subheading styles */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Paragraph styles */
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Call-to-action button styles */
+  .button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the main mission section */
+  .main-mission {
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for the "How it Works" section */
+  .how-it-works {
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for the reasons to choose section */
+  .reasons-to-choose {
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for the benefits section */
+  .benefits {
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for the footer */
+  .footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+/* About Styles Ends */
+
+/* Info Styles Starts */
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1c1c1c;
+  box-shadow: 0 0px 30px #00ADB5;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  font-family: Tahoma, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 20px;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  width: 380px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #1c1c1c;
+  color: #fff;
+  font-family: Tahoma, sans-serif;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="file"] {
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 182px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.required {
+  color: #ff5454;
+}
+
+
+/* Info Styles Ends */

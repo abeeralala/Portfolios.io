@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolios.io | Submit Info</title>
+    <link rel="shortcut icon" type="image" href="Images/adobe-portfolio-seeklogo.com [Converted].png">
+    <link rel="stylesheet" href="Style.Css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="brand">
+            <a href="index.Html">Portfolios.io</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.Html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Portfolios.Html">Portfolios</a></li>
+        </ul>
+    </nav>
+
+    <br><br><br>
+
+    <div class="container">
+        <form action="https://formspree.io/f/xaygnllw" method="post">
+            <h2 class="wlcm">Contact Form</h2>
+            <label for="first-name">First Name<span class="required">*</span></label>
+            <input type="text" id="first-name" name="first-name" required placeholder="John">
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Doe">
+
+            <label for="email">Email ID<span class="required">*</span></label>
+            <input type="email" id="email" name="email" required placeholder="example@domain.com">
+
+            <label for="services">Your Services<span class="required" minlength="70" maxlength="1200">*</span></label>
+            <textarea id="services" name="services" rows="4" required placeholder="I am a graphic designer and I can design stuff like..."></textarea>
+
+            <label for="your-work">Your Work ( At least 3 files ) <br> <small>( .jpg, .jpeg, .png, .ai, .psd )</small> <span class="required">*</span></label>
+            <input type="file" id="your-work" name="your-work" accept=".jpg, .jpeg, .png, .ai, .psd" multiple required> 
+
+            <div class="btn-group">
+                <button type="submit" class="btn-1">Submit</button>
+                <a href="index.Html"><button class="btn-1" id="btn-1">Go Back</button></a>
+            </div>
+        </form>
+    </div>
+
+    <br><br><br><br>
+
+</body>
+
+</html>
